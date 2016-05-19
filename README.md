@@ -3,7 +3,7 @@ A userChrome tweak to make Firefox's Australis tabs into nice, simple rectangles
 
 ## Install
 
-Go to about:support and click on "Show Folder", this will take you to your Firefox profile folder. In this folder you will need to create a new directory called "Chrome" if it doesn't already exist. Place userChrome.css inside this directory (File path should be '<Firefox Profile>\Chrome\userChrome.css)' and restart firefox.
+Go to about:support and click on "Show Folder", this will take you to your Firefox profile folder. In this folder you will need to create a new directory called "Chrome" if it doesn't already exist. Place userChrome.css inside this directory (File path should be '[Firefox Profile Folder]\Chrome\userChrome.css)' and restart firefox.
 
 ## Compatibility
 
