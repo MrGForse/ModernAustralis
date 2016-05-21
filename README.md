@@ -7,8 +7,15 @@ Go to about:support and click on "Show Folder", this will take you to your Firef
 
 ## Compatibility
 
-Tested on Windows 7 and 10, OSX 10.11.5 and Ubuntu 16.04 LTS.
+Tested on Windows 7 and 10, OSX 10.11.5 and Ubuntu 16.04 LTS. Ubuntu and OSX have strange borders on the tabs.
 Only works with Firefox 29.x and up.
+
+## To-Do list
+
+- Future proof by removing '-moz' prefixes.
+- Either remove tab separators completely or use default separators.
+- Fix windowed mode tab sizes (Hover tab is slightly taller than active tab).
+- Create OS specific files, OSX and Ubuntu don't look that great.
 
 ## User Tweaks
 
