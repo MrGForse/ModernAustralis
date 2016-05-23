@@ -9,7 +9,7 @@ Go to about:support and click on "Show Folder", this will take you to your Firef
 
 ### Method 2:
 
-Use the Stylish add-on and install this user style.
+Use the Stylish add-on and install this user style:
 https://userstyles.org/styles/128209/modern-australis
 
 ## Compatibility
