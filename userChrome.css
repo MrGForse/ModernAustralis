@@ -1,13 +1,6 @@
 @namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
 
-/* Modern Australis V1.02 */
-
-/* Credits */
-/* /u/dezzadk (https://redd.it/2b1k7m) - Initial CSS Template to work from */
-/* /u/MrGForse (http://gforse.uk) - Modern/Square Overhaul */
-/* Most importantly, Mozilla contributors for being awesome */
-
-/* This took about 3 hours to do from start to finish, I had to use trial and error to get what I wanted */
+/* Modern Australis V1.07 */
 
 .tabbrowser-tab[selected] { margin-top: -1px !important; }
 
@@ -28,23 +21,23 @@ width: 1px !important;
 
 .tab-background,
 .tabs-newtab-button {
--moz-margin-end: 0 !important;
--moz-margin-start: 0.5px !important;
+-margin-end: 0 !important;
+-margin-start: 0.5px !important;
 }
 
 .tabbrowser-arrowscrollbox > .arrowscrollbox-scrollbox {
--moz-padding-end: 0 !important;
--moz-padding-start: 0 !important;
+-padding-end: 0 !important;
+-padding-start: 0 !important;
 }
 
 .tabbrowser-tab[selected]::before,
 .tabbrowser-tab[selected]::after {
--moz-margin-start: -0.5px !important;
--moz-margin-end: -0.5px !important;
+-margin-start: -0.5px !important;
+-margin-end: -0.5px !important;
 background-color: #aaa !important;
 background-size: 1px 100% !important;
 content: "" !important;
-display: -moz-box !important;
+display: -box !important;
 margin-bottom: 1px !important;
 width: 1px !important;
 }
@@ -66,13 +59,13 @@ margin: 0 -0.5px !important;
 
 .tab-background,
 .tabs-newtab-button {
--moz-margin-end: 0 !important;
--moz-margin-start: 0.5px !important;
+-margin-end: 0 !important;
+-margin-start: 0.5px !important;
 }
 
 .tabbrowser-arrowscrollbox > .arrowscrollbox-scrollbox {
--moz-padding-end: 0 !important;
--moz-padding-start: 0 !important;
+-padding-end: 0 !important;
+-padding-start: 0 !important;
 }
 
 .tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected=true]),
@@ -85,12 +78,12 @@ background-size: 100% !important;
 .tabbrowser-tab:not([selected]):not([afterselected-visible]):not([first-visible-tab])::before,
 #tabbrowser-tabs[overflow] > .tabbrowser-tab[first-visible-tab]:not([selected])::before,
 #tabbrowser-tabs:not([overflow]) > .tabbrowser-tab:not([selected])::after {
--moz-margin-start: -1.5px !important;
--moz-margin-end: -1.5px !important;
+-margin-start: -1.5px !important;
+-margin-end: -1.5px !important;
 background-image: url(chrome://browser/skin/tabbrowser/tab-separator.png) !important;
 background-size: 3px 100% !important;
 content: "" !important;
-display: -moz-box !important;
+display: -box !important;
 margin-bottom: 1px !important;
 width: 3px !important;
 }
@@ -102,12 +95,12 @@ background-size: 1px 100% !important;
 
 .tabbrowser-tab[selected]::before,
 .tabbrowser-tab[selected]::after {
--moz-margin-start: -0.5px !important;
--moz-margin-end: -0.5px !important;
+-margin-start: -0.5px !important;
+-margin-end: -0.5px !important;
 background-color: #aaa !important;
 background-size: 1px 100% !important;
 content: "" !important;
-display: -moz-box !important;
+display: -box !important;
 margin-bottom: 1px !important;
 width: 1px !important;
 }
