@@ -1,4 +1,4 @@
-/* Modern Square Australis V1.10 */
+/* Modern Australis V1.13 */
 
 .tabbrowser-tab[selected] { margin-top: -1px !important; }
 
@@ -104,11 +104,3 @@ width: 1px !important;
 }
 
 .tabs-newtab-button { width: 32px !important; }
-
-@-moz-document domain("duckduckgo.com") {
-
-  .svg .logo_homepage {
-    background-image: url("https://i.sli.mg/K7FQkN.png");
-  }
-
-}
