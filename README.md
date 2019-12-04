@@ -1,3 +1,6 @@
+# Now deperecated due to UI updates from Mozilla.
+
+
 # Modern Australis
 A userChrome tweak to make Firefox's Australis tabs into nice, simple rectangles, following Microsoft's Windows 10 UI design.
 
